@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+
+  height: 5vh;
+  font-size: 3rem;
+  text-decoration-thickness: 2px;
+}
+
+.myForm {
+  display: flex;
+  border: 1px black solid;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+
+  & > .Add {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  
+  & > button {
+    align-self: stretch
+  }
+}
+
+.Body {
+  height: 95vh;
+}
